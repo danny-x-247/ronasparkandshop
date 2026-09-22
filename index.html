@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ronas Park & Shop - a convenient shopping center for everyday products.">
+  <title>Ronas Park & Shop | Shop Easily</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">Ronas <span>Park & Shop</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="call-btn" href="tel:08104444300">Call Business Center</a>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO RONAS PARK & SHOP</p>
+        <h1>Everything you need, <span>in one place.</span></h1>
+        <p class="hero-text">Discover everyday products at Ronas Park & Shop. Can't find what you need? Call our Business Center and ask about a product.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#products">Explore Products</a>
+          <a class="secondary-btn" href="tel:08104444300">📞 Call Business Center</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="circle">🛒</div>
+        <h3>Need a product?</h3>
+        <p>Call our Business Center and ask. We'll help you check availability.</p>
+        <a href="tel:08104444300">Call Now →</a>
+      </div>
+    </section>
+
+
+    <section class="gallery section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">VISIT RONAS PARK & SHOP</p>
+          <h2>Our Store</h2>
+        </div>
+        <a class="text-link" href="tel:08104444300">Call Business Center →</a>
+      </div>
+      <div class="gallery-grid">
+        <img src="assets/image1.jpg" alt="Ronas Park & Shop storefront">
+        <img src="assets/image2.jpg" alt="Inside Ronas Park & Shop">
+      </div>
+     
+    </section>
+
+    <section class="search-section">
+      <p class="eyebrow">PRODUCT FINDER</p>
+      <h2>Looking for something?</h2>
+      <p>Type a product below. If it isn't listed, call the Business Center and ask.</p>
+      <div class="search-box">
+        <input id="productSearch" type="search" placeholder="Search for a product..." aria-label="Search products">
+        <button onclick="searchProducts()">Search</button>
+      </div>
+      <p id="searchMessage" class="search-message"></p>
+    </section>
+
+    <section id="products" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SHOPPING MADE SIMPLE</p>
+          <h2>Popular Product Categories</h2>
+        </div>
+        <a class="text-link" href="tel:08104444300">Ask about a product →</a>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-name="groceries food provisions">
+          <div class="icon">🛍️</div>
+          <h3>Groceries</h3>
+          <p>Everyday food and household provisions.</p>
+        </article>
+        <article class="product-card" data-name="drinks beverages water">
+          <div class="icon">🥤</div>
+          <h3>Drinks & Beverages</h3>
+          <p>Refreshments for home, work and events.</p>
+        </article>
+        <article class="product-card" data-name="household cleaning">
+          <div class="icon">🏠</div>
+          <h3>Household Items</h3>
+          <p>Useful products for your home and daily needs.</p>
+        </article>
+        <article class="product-card" data-name="personal care toiletries">
+          <div class="icon">🧴</div>
+          <h3>Personal Care</h3>
+          <p>Personal and hygiene essentials.</p>
+        </article>
+        <article class="product-card" data-name="school stationery">
+          <div class="icon">📚</div>
+          <h3>School Supplies</h3>
+          <p>Stationery and useful school essentials.</p>
+        </article>
+        <article class="product-card" data-name="accessories general products">
+          <div class="icon">🛒</div>
+          <h3>More Products</h3>
+          <p>Ask our Business Center about other available items.</p>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="store-details section">
+      <div>
+        <p class="eyebrow">STORE INFORMATION</p>
+        <h2>Find us in Yola, Jimeta</h2>
+        <p>7C5C+CHG Kofare, Bachure Road, Yola, Jimeta, Adamawa</p>
+      </div>
+      <div class="details-card">
+        <div><strong>Customer rating</strong><span>4.0 / 5</span></div>
+        <div><strong>Reviews</strong><span>83 reviews</span></div>
+        <div><strong>Business Center</strong><span>0810 444 4300</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div>
+        <p class="eyebrow">ABOUT US</p>
+        <h2>Your convenient local shopping destination.</h2>
+      </div>
+      <p>Ronas Park & Shop is designed to make shopping easier. Browse our categories online, then contact the Business Center if you want to check whether a specific product is available.</p>
+    </section>
+
+    <section class="cta">
+      <div>
+        <p class="eyebrow">CAN'T FIND IT?</p>
+        <h2>Just ask the Business Center.</h2>
+        <p>Call and tell us the product you're looking for.</p>
+      </div>
+      <a class="primary-btn light" href="tel:08104444300">📞 Call Business Center</a>
+    </section>
+
+    <section id="contact" class="contact section">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Ronas Park & Shop</h2>
+      <p>Business Center: <strong>0810 444 4300</strong></p>
+      <p>Address: 7C5C+CHG Kofare, Bachure Road, Yola, Jimeta, Adamawa</p>
+      <a class="primary-btn" href="tel:08104444300">Call Now</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Ronas Park & Shop. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function searchProducts() {
+      const query = document.getElementById("productSearch").value.trim().toLowerCase();
+      const cards = document.querySelectorAll(".product-card");
+      const message = document.getElementById("searchMessage");
+      let found = false;
+
+      cards.forEach(card => {
+        const matches = !query || card.dataset.name.includes(query);
+        card.style.display = matches ? "block" : "none";
+        if (query && matches) found = true;
+      });
+
+      if (!query) {
+        message.textContent = "Browse the categories below or call the Business Center.";
+      } else if (found) {
+        message.textContent = "We found a matching category. For exact product availability, call the Business Center.";
+      } else {
+        message.innerHTML = 'Product not listed? <a href="tel:08104444300">Call the Business Center</a> and ask.';
+      }
+    }
+
+    document.getElementById("productSearch").addEventListener("keydown", e => {
+      if (e.key === "Enter") searchProducts();
+    });
+  </script>
+</body>
+</html>
