@@ -1,9 +1,9 @@
-# Ronaa Park & Shop — Demo Website
+# Ronas Park & Shop — Demo Website
 
 Demo website customized with information shown in the supplied business listing.
 
 ## Business information
-- **Name:** Ronaa Park & Shop
+- **Name:** Ronas Park & Shop
 - **Phone / Business Center:** 0810 444 4300
 - **Address:** 7C5C+CHG Kofare, Bachure Road, Yola, Jimeta, Adamawa
 - **Listed rating:** 4.0 / 5
